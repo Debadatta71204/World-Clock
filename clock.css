@@ -1,0 +1,58 @@
+ /* Dropdown Container */
+ .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Button */
+.dropdown button {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.dropdown button:hover {
+    background-color: deepskyblue;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 0;
+    z-index: 1;
+}
+
+/* Dropdown Items */
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+/* Hover & Click Effects */
+.dropdown-menu a:hover {
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+.dropdown-menu a:active {
+    background-color: blue;
+    color: white;
+}
+
+/* Show Dropdown */
+.dropdown.show .dropdown-menu {
+    display: block;
+}
