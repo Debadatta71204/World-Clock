@@ -27,7 +27,8 @@ This is a **simple web project** that displays the current time and allows users
 ## 🔧 Technologies Used  
 
 - **HTML** - Structure of the webpage  
-- **CSS** - Custom styles for enhancements  
+- **CSS** - Custom styles for enhancements
+- **JavaScript** - Updating time 
 
 ## 📜 Future Improvements  
 
